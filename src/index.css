@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    color: white;
+}
+input{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color:rgba(70, 69, 69, 0.675) ;
+    border-radius: 10px;
+    color: white;
+}
+input:hover{
+    background-color: rgb(40, 40, 40);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    box-shadow: 0 0 5px #39ff14;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+}
+
+.PeliculaFiltrada{
+    color: white;
+}
+
+h1:hover{
+    box-shadow: 0 0 10px #39ff14, 0 0 40px #39ff14;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li img{
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(49, 48, 48, 0.5);
+}
+
+
+li{
+    margin: 10px;
+    margin-bottom: 35px;
+    text-align: center;
+    list-style: none;
+    height: 450px;
+}
+
+.InfoPeli{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height:inherit;
+    text-align:left;
+    position: relative;
+    top: -469px;
+    font-size: 17px;
+    opacity: 0;
+    
+}
+
+p{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+a:hover{
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+
+
+li:hover{
+
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.InfoPeli:hover{
+    opacity: 1;
+    transition: 0.5s;
+    background-color:rgba(74, 74, 82, 0.434);
+    border-radius: 10px;
+} 
